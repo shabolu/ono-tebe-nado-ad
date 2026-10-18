@@ -78,6 +78,7 @@
 .cover__title,
 .cover__description {
   width: 1000px;
+  margin: 0 auto;
 }
 
 .cover__heading {
