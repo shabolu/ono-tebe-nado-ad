@@ -30,6 +30,7 @@ nav li {
 
 nav a {
   text-transform: lowercase;
+  text-underline-offset: 4px;
 }
 
 nav li:not(:last-child)::after {
