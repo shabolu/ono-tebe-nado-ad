@@ -40,3 +40,8 @@ header address a {
   font-variant-numeric: lining-nums;
   text-underline-offset: 4px;
 }
+
+header > a img {
+  width: auto;
+  height: 105px;
+}
