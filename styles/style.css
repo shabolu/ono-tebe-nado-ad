@@ -75,6 +75,11 @@
   background-position: center;
 }
 
+.cover__title,
+.cover__description {
+  width: 1000px;
+}
+
 .cover__heading {
   font-size: 100px;
   line-height: 115px;
