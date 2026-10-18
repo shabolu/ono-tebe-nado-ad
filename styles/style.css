@@ -28,3 +28,12 @@ nav li:not(:last-child)::after {
 nav a[aria-current="page"] {
   text-decoration: none;
 }
+
+header address {
+  font-style: normal;
+}
+
+header address a {
+  font-variant-numeric: lining-nums;
+  text-underline-offset: 4px;
+}
