@@ -74,3 +74,11 @@
   background-size: cover;
   background-position: center;
 }
+
+.cover__heading {
+  font-size: 100px;
+  line-height: 115px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #fff;
+}
