@@ -88,11 +88,25 @@
 }
 
 .cover__heading {
+  display: grid;
+  row-gap: 20px;
   font-size: 100px;
   line-height: 115px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #fff;
+}
+
+.cover__heading-word_position_left {
+  justify-self: start;
+}
+
+.cover__heading-word_position_center {
+  justify-self: center;
+}
+
+.cover__heading-word_position_right {
+  justify-self: end;
 }
 
 .cover__text {
