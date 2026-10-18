@@ -3,3 +3,7 @@
 nav a {
   text-transform: lowercase;
 }
+
+nav a[aria-current="page"] {
+  text-decoration: none;
+}
