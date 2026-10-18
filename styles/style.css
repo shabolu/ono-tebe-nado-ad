@@ -1,7 +1,28 @@
 /* место для вашего кода */
 
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+nav li {
+  display: flex;
+  align-items: center;
+}
+
 nav a {
   text-transform: lowercase;
+}
+
+nav li:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  margin: 0 13px;
 }
 
 nav a[aria-current="page"] {
